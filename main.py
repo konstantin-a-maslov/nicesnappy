@@ -43,8 +43,7 @@ def get_processing_graph(mst_input_path, slv_input_path, output_path):
 
 
 def main():
-    nicesnappy.initialize("/home/konstantin/.snap/snap-python")
-    # nicesnappy.initialize("<path/to/snappy>") # e.g. "/home/konstantin/.snap/snap-python"
+    nicesnappy.initialize("<path/to/snappy>") # e.g. "/home/konstantin/.snap/snap-python"
     # you can also import snappy as you like and initialize nicesnappy 
     # by sending the module as a parameter to nicesnappy.initialize_with_module
     
